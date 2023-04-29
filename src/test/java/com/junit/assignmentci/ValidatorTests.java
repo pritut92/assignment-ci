@@ -8,7 +8,7 @@ public class ValidatorTests {
     Validator validator = new Validator();
 
     @Test
-    @DisplayName("Test for phone number with valid requirements")
+    @DisplayName("Test of phone number with valid requirements")
     void shouldReturnTrueWithValidPhoneNumber() {
         String phoneNumber = "0764517376";
 
