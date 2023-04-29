@@ -13,7 +13,7 @@ public class ValidatorTests {
         String phoneNumber = "0764517376";
 
         boolean result = validator.isPhoneNumberValid(phoneNumber);
-        Assertions.assertTrue(result);
+        Assertions.assertFalse(result);
     }
 
     @Test
