@@ -88,10 +88,4 @@ public class CalculatorTests {
         Assertions.assertEquals(Double.NaN, result);
 
     }
-
-    @Test
-    void failingTest() {
-        Assertions.assertEquals(2,3);
-    }
-
 }
