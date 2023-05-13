@@ -89,4 +89,9 @@ public class CalculatorTests {
 
     }
 
+    @Test
+    void failingTest() {
+        Assertions.assertEquals(2,3);
+    }
+
 }
